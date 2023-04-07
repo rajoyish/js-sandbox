@@ -1,0 +1,27 @@
+button {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: var(--primary);
+  /* creating transitions directly in CSS */
+  transition: background-color 0.5s ease-out;
+}
+
+button:hover {
+  background-color: var(--accent);
+}
+
+.button-2.is-active {
+  background-color: var(--dark);
+  color: #fff;
+}
+
+.click-hide-me {
+  background-color: var(--light);
+}
+
+.click-hide-me-el:hover {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
