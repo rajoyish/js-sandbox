@@ -1,0 +1,70 @@
+button {
+  background-color: var(--primary);
+  transition: background-color 0.3s ease-out;
+}
+
+button.is-highlighted {
+  background-color: goldenrod;
+  transform: translateX(1em);
+}
+
+.text-lorem {
+  background-color: var(--accent);
+  padding: 2rem;
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  animation: lullaby-lorem 3s ease-in-out;
+}
+
+@keyframes lullaby-lorem {
+  25% {
+    transform: translateX(10rem);
+    background-color: var(--primary);
+    border-radius: 50%;
+  }
+
+  50% {
+    transform: translateX(15rem);
+    background-color: var(--dark);
+  }
+
+  75% {
+    transform: translateX(20rem);
+    background-color: var(--primary);
+  }
+
+  100% {
+    transform: translateX(0rem);
+    background-color: var(--light);
+  }
+}
+
+/* EXCERCISES */
+.elephant {
+    padding: 1rem;
+    font-size: 5rem;
+    transition: translateX 3s ease;
+}
+
+.elephant:hover {
+    transform: translateX(-100px);
+}
+
+@keyframes move {
+  0% {
+    transform: tranlateX(0);
+  }
+  100% {
+    transform: translateX(100px);
+  }
+}
+
+.element {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  animation: 1s move paused;
+}
+
