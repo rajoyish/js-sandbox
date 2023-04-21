@@ -1,0 +1,23 @@
+.box {
+  background-color: var(--primary);
+  height: 5rem;
+  width: 5rem;
+}
+
+.ballon {
+  font-size: 5rem;
+}
+
+.ball {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.volleyball {
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+.fish {
+  font-size: 5rem;
+}
