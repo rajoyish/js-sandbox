@@ -27,10 +27,24 @@ a {
   cursor: pointer;
 }
 
+button {
+  border: 0;
+  padding: 0.3rem 1rem;
+  border-radius: 0.2rem;
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
 section.block {
   display: flex;
   padding: 2rem;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+img {
+  width: 100%;
 }
